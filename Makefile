@@ -7,6 +7,6 @@ test:
 	#python -m pytest --nbval notebook.ipynb
 
 lint:
-	pylint --disable=R,C web.py
+	pylint --disable=R,C flask_app/web.py nlib csvcli
 
 all: install lint test

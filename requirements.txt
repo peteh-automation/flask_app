@@ -1,1 +1,8 @@
+flask
 pylint
+pylint-flask
+Flask-API
+flasgger
+sensible
+numpy
+pandas
